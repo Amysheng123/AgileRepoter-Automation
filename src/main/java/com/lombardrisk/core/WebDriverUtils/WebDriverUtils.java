@@ -10,8 +10,6 @@ import org.openqa.selenium.ie.InternetExplorerDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.service.DriverService;
 
-import com.lombardrisk.core.utils.RemoteLogWebDriver;
-
 
 public class WebDriverUtils {
     private static DriverService service;

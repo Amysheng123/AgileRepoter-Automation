@@ -1,0 +1,23 @@
+userName:
+  type: id
+  value: loginForm:inputUsername
+
+password:
+  type: id
+  value: loginForm:inputPassword
+
+login:
+  type: id
+  value: loginForm:btnSignIn
+
+input:
+  type: id
+  value: kw
+
+search:
+  type: id
+  value: su
+
+searchRst:
+  type: xpath
+  value: "//*[@id='%']/h3/a"

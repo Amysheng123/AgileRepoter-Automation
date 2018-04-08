@@ -1,0 +1,39 @@
+regulator:
+  type: id
+  value: formFilter:regulator
+
+entity:
+  type: id
+  value: formFilter:selectGroup
+
+form:
+  type: id
+  value: formFilter:selectForm
+
+date:
+  type: id
+  value: formFilter:selectProcessDate
+
+createNewBtn:
+  type: id
+  value: FormInstImpExpMenu:createNew
+
+createNewForm:
+  type: id
+  value: FormInstImpExpMenu:createFormInstEmpty
+
+createFromXls:
+  type: id
+  value: FormInstImpExpMenu:createFormInstFromExcel
+
+retrieve:
+  type: id
+  value: FormInstImpExpMenu:retrieve
+
+admin:
+  type: id
+  value: formHeader:lblUser_button
+
+preferences:
+  type: id
+  value: formHeader:btnPreferences

@@ -1,0 +1,30 @@
+[
+  {
+    "ApplicationServsers": [
+      {
+        "id": 0,
+        "name": "default",
+        "url": "http://10.20.0.12:8080",
+        "username": "admin",
+        "password": "password"
+
+      }
+    ],
+    "databaseServers": [
+      {
+        "id": o,
+        "name": "ar_database",
+        "driver": "sqlserver",
+        "host": "172.20.20.230\\sql12",
+        "schema": "AR_AUTO_OWNER"
+      },
+      {
+        "id": 1,
+        "name": "toolset_database",
+        "driver": "sqlserver",
+        "host": "172.20.30.95",
+        "schema": "ECR_HKMA_AUTO_SYSTEM"
+      }
+    ]
+  }
+]

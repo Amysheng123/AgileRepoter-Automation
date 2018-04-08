@@ -1,0 +1,52 @@
+entity:
+  type: id
+  value: createForm:selectGroup
+
+date:
+  type: id
+  value: createForm:processDate_input
+
+refDate:
+  type: id
+  value: createForm:lblReferenceDate
+
+form:
+  type: id
+  value: createForm:selectForm
+
+create:
+  type: id
+  value: createForm:createformInstanceBtn
+
+cancel:
+  type: id
+  value: createForm:cancel
+
+calendar:
+  type: id
+  value: ui-datepicker-div
+
+calendarYear:
+  type: xpath
+  value: ".//*[@id='ui-datepicker-div']/div/div/select[2]"
+
+calendarMonth:
+  type: xpath
+  value: ".//*[@id='ui-datepicker-div']/div/div/select[1]"
+
+calendarDay:
+  type: xpath
+  value: ".//*[@id='ui-datepicker-div']/table/tbody/tr[td[a=%]]/td[a=%]/a"
+
+calendarDay1:
+  type: xpath
+  value: ".//*[@id='ui-datepicker-div']/table/tbody/*/*/a[@class='ui-state-default ui-state-active']"
+
+calendarDay2:
+  type: xpath
+  value: ".//*[@id='ui-datepicker-div']/table/tbody/*/*/a[contains(text(),%)]"
+
+
+calendarDay3:
+  type: cssSelector
+  value: "#ui-datepicker-div>table>tbody>tr>td>a.ui-state-default.ui-state-active"
